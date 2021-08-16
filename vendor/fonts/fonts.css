@@ -1,34 +1,8 @@
-@import url(//db.onlinewebfonts.com/c/e86d1edf66d9d65b1f237295820e45b9?family=Kaspersky+Bold);
-
 @font-face {
-    font-family: 'Inter';
-    font-style:  normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url("Inter-Regular.woff2?v=3.13") format("woff2"),
-         url("Inter-Regular.woff?v=3.13") format("woff");
-}
-@font-face {
-    font-family: 'Inter';
-    font-style:  normal;
+    font-family: 'Kaspersky Sans';
+    font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: url("Inter-Bold.woff2?v=3.13") format("woff2"),
-         url("Inter-Bold.woff?v=3.13") format("woff");
-}
-@font-face {
-    font-family: 'Inter';
-    font-style:  normal;
-    font-weight: 900;
-    font-display: swap;
-    src: url("Inter-Black.woff2?v=3.13") format("woff2"),
-         url("Inter-Black.woff?v=3.13") format("woff");
-}
 
-@font-face {font-family: "Kaspersky Bold";
-    src: url("//db.onlinewebfonts.com/t/e86d1edf66d9d65b1f237295820e45b9.eot");
-    src: url("//db.onlinewebfonts.com/t/e86d1edf66d9d65b1f237295820e45b9.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/e86d1edf66d9d65b1f237295820e45b9.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/e86d1edf66d9d65b1f237295820e45b9.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/e86d1edf66d9d65b1f237295820e45b9.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/e86d1edf66d9d65b1f237295820e45b9.svg#Kaspersky Bold") format("svg"); }
+
+}

@@ -18,7 +18,6 @@
 }
 
 .devices__card-text {
-    font-family: 'Kaspersky Bold';
     font-size: 16px;
     line-height: 9px;
     color: #444444;
@@ -26,7 +25,6 @@
 }
 
 .devices__card-span {
-    font-family: 'Kaspersky Bold';
     font-size: 12px;
     line-height: 9px;
     font-weight: lighter;
@@ -36,7 +34,6 @@
 
 .devices__card-price {
     margin: 7px 0 0 0;
-    font-family: 'Kaspersky Bold';
     font-size: 16px;
     line-height: 20px;
     color: #1D1D1B;

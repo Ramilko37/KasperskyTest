@@ -12,9 +12,14 @@
 @import url(../blocks/devices/devices.css);
 @import url(../blocks/faq/faq.css);
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/reqs/reqs.css);
 
-
-
+@font-face {
+    font-family: "Kaspersky Sans";
+    src: url("../vendor/fonts/KasperskySans-Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
 
 
 

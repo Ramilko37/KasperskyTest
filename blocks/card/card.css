@@ -27,7 +27,6 @@
 }
 
 .card__users {
-    font-family: "Kaspersky Bold";
     font-size: 16px;
     line-height: 19px;
     color: #666666;
@@ -136,7 +135,6 @@
 }
 
 .card__gray-text {
-    font-family: "Kaspersky Bold";
     width: 312px;
     line-height: 24px;
     color: #6D6E71;
@@ -145,7 +143,6 @@
 }
 
 .card__gray-text_small {
-    font-family: "Kaspersky Bold";
     font-size: 16px;
     line-height: 24px;
     color: #6D6E71;
@@ -156,7 +153,6 @@
 
 
 .card__red-sale {
-    font-family: "Kaspersky Bold";
     font-size: 24px;
     line-height: 28px;
     width: 312px;
@@ -166,7 +162,6 @@
 }
 
 .card__red-sale_small {
-    font-family: "Kaspersky Bold";
     font-size: 18px;
     line-height: 24px;
     text-align: center;
@@ -181,7 +176,6 @@
 
 
 .card__old-price {
-    font-family: "Kaspersky Bold";
     font-size: 20px;
     line-height: 23px;
     text-align: center;
@@ -192,7 +186,6 @@
 }
 
 .card__old-price_small {
-    font-family: "Kaspersky Bold";
     font-size: 16px;
     line-height: 24px;
     text-align: center;
@@ -218,7 +211,6 @@
 }
 
 .card__new-price {
-    font-family: "Kaspersky Bold";
     font-size: 32px;
     line-height: 37px;
     font-weight: bold;
@@ -231,7 +223,6 @@
 }
 
 .card__new-price_small {
-    font-family: "Kaspersky Bold";
     font-size: 22px;
     line-height: 20px;
     display: flex;
@@ -242,7 +233,6 @@
 }
 
 .card__new-price_smallcard {
-    font-family: "Kaspersky Bold";
     font-size: 48px;
     line-height: 48px;
     font-weight: bold;
@@ -255,7 +245,6 @@
 }
 
 .card__new-price_smalltext {
-    font-family: "Kaspersky Bold";
     font-size: 32px;
     line-height: 20px;
     display: flex;
@@ -270,7 +259,6 @@
 }
 
 .card__button {
-    font-family: "Kaspersky Bold";
     color: #FFFFFF;
     font-size: 24px;
     line-height: 20px;
@@ -284,7 +272,6 @@
 }
 
 .card__button_small {
-    font-family: "Kaspersky Bold";
     color: #FFFFFF;
     font-size: 24px;
     line-height: 20px;
@@ -302,7 +289,6 @@
 }
 
 .card__renewal {
-    font-family: Kaspersky Sans;
     font-size: 16px;
     line-height: 20px;
     text-align: center;
