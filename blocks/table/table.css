@@ -15,7 +15,7 @@
     text-align: center;
     letter-spacing: -0.03em;
     color: #1D1D1B;
-    margin: 211px auto 143px;
+    margin: 0 auto 143px;
 }
 
 .table__small-cards {
@@ -124,6 +124,6 @@
 .table__polygon {
     position: absolute;
     left: 0;
-    top: 3000px;
+    top: 2870px;
     z-index: 10;
 }
