@@ -1,6 +1,7 @@
 .lead__img {
+    display: flex;
     margin-top: -72px;
-    margin-right: 600px;
+
 }
 
 
