@@ -1,0 +1,11 @@
+.card__logo {
+    width: 61px;
+    height: 68px;
+    margin-right: 14px;
+}
+
+.card__logo_small {
+    width: 45px;
+    height: 45px;
+    margin-right: 11px;
+}

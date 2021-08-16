@@ -1,0 +1,102 @@
+
+.footer {
+    max-width: 1920px;
+    min-width: 186px;
+    display: flex;
+    flex-direction: row;
+    height: 140px;
+    margin: 230px 0 24px;
+    background: #F2F2F2;
+    padding: 0 408px 0;
+}
+
+.footer__nav {
+    display: flex;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.footer__content{
+    display: flex;
+    flex-direction: column;
+    width: 599px;
+    margin: 25px 328px 41px 0;
+}
+
+.footer__link {
+    font-size: 8px;
+    line-height: 8px;
+    text-decoration: none;
+    margin-right: 20px;
+    color: #666666;
+}
+
+.footer__text {
+    font-size: 11px;
+    line-height: 16px;
+    color: #999999;
+    margin: 10px 0 0 0;
+}
+
+.footer__options{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__socials {
+    display: flex;
+    width: 182px;
+    justify-content: space-between;
+    margin: 25px 0 12px 0;
+}
+
+.footer__socials-link {
+    background-image: url("../../images/Facebook.svg");
+}
+
+.footer__country {
+    display: flex;
+    width: 182px;
+    height: 40px;
+    border: 1.5px solid #CCCCCC;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 0 12px 0;
+}
+
+.footer__country-name {
+    font-family: 'Kaspersky Bold';
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #999999;
+}
+
+.footer__button {
+   margin-top: 10px;
+    background-image: url("../../images/black.svg");
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 9px;
+    border: none;
+}
+
+
+@media screen and (max-width: 720px) {
+    .footer {
+    max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+    max-width: 186px;
+    margin-left: 16px;
+    flex-direction: column;
+    align-items: end;
+    }
+}
+
+
+

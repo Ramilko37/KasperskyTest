@@ -1,0 +1,21 @@
+@import url(_active/header__lang-item_active.css);
+
+.header__lang-item {
+    font-size: 14px;
+    line-height: 18px;
+    color: #444444;
+    text-decoration: none;
+}
+
+.header__lang-item:hover {
+    opacity: 0.3;
+}
+
+
+
+
+
+
+
+
+

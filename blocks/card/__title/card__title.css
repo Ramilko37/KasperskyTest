@@ -1,0 +1,15 @@
+.card__title {
+    height: 39px;
+    font-size: 25px;
+    line-height: 39px;
+    color: #1D1D1B;
+    margin: 0;
+}
+
+.card__title_small {
+    font-family: 'Kaspersky Bold';
+    font-size: 18px;
+    line-height: 21px;
+    color: #1D1D1B;
+    margin: 0;
+}

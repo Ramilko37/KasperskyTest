@@ -1,0 +1,325 @@
+@import url(__title/card__title.css);
+@import url(__brand/card__brand.css);
+@import url(__logo/card__logo.css);
+@import url(__header/card__header.css);
+@import url(__star/card__star.css);
+@import url(__star/_half/card__star_half.css);
+@import url(__reviews/card__reviews.css);
+@import url(__description/card__description.css);
+@import url(__description-text/card__description-text.css);
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: fit-content;
+    box-shadow: 0 8px 25px rgba(29, 29, 27, 0.24);
+    border-radius: 4px;
+    position: relative;
+    z-index: 30;
+}
+
+.card__description-check {
+    width: 17px;
+    height: 12px;
+    margin-top: 5px;
+}
+
+.card__users {
+    font-family: "Kaspersky Bold";
+    font-size: 16px;
+    line-height: 19px;
+    color: #666666;
+    margin-right: 6px;
+    margin-bottom: 14.5px;
+}
+
+.card__white-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    margin-bottom: 15px;
+    padding: 26px 0 0 20px;
+}
+
+.card__users-info {
+    width: 20px;
+    height: 20px;
+}
+
+.card__gray-wrapper {
+    background-color: #F2F2F2;;
+    padding-bottom: 48px;
+    z-index: 30;
+}
+
+.card__chooseplan {
+    color: #1D1D1B;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    margin: 14px 0 10px 20px;
+}
+
+.card__plan-type {
+    display: flex;
+    width: 312px;
+    background-color: #FFFFFF;
+    border: 1.5px solid #CCCCCC;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 0 12px;
+    margin: 0 19px;
+    border-bottom: #23D1AE 2px solid;
+}
+
+
+.card__plan-description {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #1D1D1B;
+    margin: 14px 0;
+}
+
+.card__plan-description_small {
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 16px;
+    color: #1D1D1B;
+}
+
+.card__plan-price {
+    display: flex;
+}
+
+.card__plan-price-btn {
+    width: 12px;
+    height: 12px;
+    background-image: url('../../images/black.svg');
+    background-color: #FFFFFF;
+    border: none;
+    margin-left: 8px;
+    margin-top: 18px;
+}
+
+.card__popup {
+    visibility: visible;
+    width: 368px;
+    background-image: url("../../images/Rectangle 1954.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 16px 16px 16px 34px;
+    position: absolute;
+    z-index: 60;
+    left: 1090px;
+    top: 940px;
+}
+
+@media screen and (max-width: 720px) {
+    .card__popup {
+        width: 237px;
+        height: 100px;
+        padding: 16px 10px 20px 24px;
+        left: 550px;
+        top: 1000px;
+    }
+}
+
+.card__popup-text {
+    margin: 0;
+
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.card__gray-text {
+    font-family: "Kaspersky Bold";
+    width: 312px;
+    line-height: 24px;
+    color: #6D6E71;
+    margin: 7px auto 17px;
+    text-align: center;
+}
+
+.card__gray-text_small {
+    font-family: "Kaspersky Bold";
+    font-size: 16px;
+    line-height: 24px;
+    color: #6D6E71;
+    margin: 42px auto 12px;
+    text-align: center;
+}
+
+
+
+.card__red-sale {
+    font-family: "Kaspersky Bold";
+    font-size: 24px;
+    line-height: 28px;
+    width: 312px;
+    text-align: center;
+    color: #FF3748;
+    margin: 0 auto 9px;
+}
+
+.card__red-sale_small {
+    font-family: "Kaspersky Bold";
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FF3748;
+    margin: 0 auto 9px;
+}
+
+.card__price-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+
+.card__old-price {
+    font-family: "Kaspersky Bold";
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-decoration-line: line-through;
+    color: #999999;
+    margin: 0;
+}
+
+.card__old-price_small {
+    font-family: "Kaspersky Bold";
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #666666;
+    margin: 0;
+}
+
+.card__old-price_crossed {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-decoration-line: line-through;
+    color: #666666;
+    margin: 0;
+}
+
+
+.card__price-info {
+    margin-left: 6px;
+}
+
+.card__new-price {
+    font-family: "Kaspersky Bold";
+    font-size: 32px;
+    line-height: 37px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: -0.03em;
+    color: #1D1D1B;
+    margin: 13px 0 0 0;
+}
+
+.card__new-price_small {
+    font-family: "Kaspersky Bold";
+    font-size: 22px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin-bottom: 10px;
+    color: #1D1D1B;
+}
+
+.card__new-price_smallcard {
+    font-family: "Kaspersky Bold";
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: -0.03em;
+    color: #1D1D1B;
+    margin: 13px 0 0 0;
+}
+
+.card__new-price_smalltext {
+    font-family: "Kaspersky Bold";
+    font-size: 32px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin-bottom: 10px;
+    color: #1D1D1B;
+}
+
+.down {
+    margin-top: 15px;
+}
+
+.card__button {
+    font-family: "Kaspersky Bold";
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 20px;
+    width: 312px;
+    height: 76px;
+    border: none;
+    background: #FF3748;
+    box-shadow: 0 8px 34px rgba(255, 55, 72, 0.48);
+    border-radius: 5px;
+    margin: 26px 19px;
+}
+
+.card__button_small {
+    font-family: "Kaspersky Bold";
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 20px;
+    width: 187px;
+    height: 48px;
+    border: none;
+    background: #FF3748;
+    border-radius: 3px;
+}
+
+.card__checkbox {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+
+.card__renewal {
+    font-family: Kaspersky Sans;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #444444;
+    margin: 0;
+    width: 94px;
+}
+
+.card_upper {
+    margin-top: -50px;
+    z-index: 30;
+}
+
+.card__bestchoice {
+    width: 174px;
+    height: 54px;
+    position: absolute;
+    top: -25px;
+    left: -12px;
+}

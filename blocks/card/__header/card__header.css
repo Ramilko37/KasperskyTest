@@ -1,0 +1,8 @@
+.card__header {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.card__header_small {
+    margin-bottom: 10px;
+}

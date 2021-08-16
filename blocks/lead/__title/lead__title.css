@@ -1,0 +1,32 @@
+.lead__title {
+    width: 765px;
+    height: 96px;
+    font-family: Kaspersky Sans, serif;
+    font-size: 40px;
+    line-height: 47px;
+    color: #1D1D1B;
+    white-space: pre-wrap;
+    margin-bottom: 29px;
+}
+
+
+@media screen and (max-width: 720px) {
+    .lead__title {
+        width: 399px;
+        font-size: 48px;
+        line-height: 52px;
+        /* or 108% */
+
+        letter-spacing: -0.03em;
+
+        /* Primary / Black */
+
+        color: #1D1D1B;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .lead__title {
+        width: 100%;
+    }
+}

@@ -1,0 +1,20 @@
+.lead__link {
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #00A88E;
+}
+
+
+@media screen and (max-width: 720px) {
+    .lead__link {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .lead__link_medium {
+        display: flex;
+    }
+}
+

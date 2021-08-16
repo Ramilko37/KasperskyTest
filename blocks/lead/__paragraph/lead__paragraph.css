@@ -1,0 +1,16 @@
+.lead__paragraph {
+
+    font-size: 21px;
+    line-height: 28px;
+    white-space: pre-wrap;
+    margin: 7px 0 44px;
+    color: #444444;
+}
+
+@media screen and (max-width: 720px) {
+    .lead__paragraph {
+        display: none;
+    }
+}
+
+

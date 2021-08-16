@@ -1,0 +1,83 @@
+.devices {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 19px auto 0;
+
+
+}
+
+.devices__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 187px;
+    border: 1px solid red;
+    margin-left: 42px;
+}
+
+.devices__card-text {
+    font-family: 'Kaspersky Bold';
+    font-size: 16px;
+    line-height: 9px;
+    color: #444444;
+    margin: 7px 15px 0 12px;
+}
+
+.devices__card-span {
+    font-family: 'Kaspersky Bold';
+    font-size: 12px;
+    line-height: 9px;
+    font-weight: lighter;
+    color: #444444;
+    margin: 5px 15px 0 12px;
+}
+
+.devices__card-price {
+    margin: 7px 0 0 0;
+    font-family: 'Kaspersky Bold';
+    font-size: 16px;
+    line-height: 20px;
+    color: #1D1D1B;
+}
+
+.visible-checkbox{
+    cursor:pointer;
+    display:inline-block;
+    vertical-align: middle;
+    width:24px;
+    height:24px;
+    border-radius: 50%;
+    border: 1px solid #CCCCCC;
+}
+
+.invisible-checkbox {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+.invisible-checkbox:checked + .visible-checkbox {
+    background-image: url("../../images/chekbox.svg");
+}
+
+.invisible-checkbox + .visible-checkbox {
+    background-image: url("../../images/Ellipse.svg ");
+}
+
+
+
+
+
+.devices__card-row {
+    display: flex;
+    margin-bottom: 3px;
+}
+
+
+
+
+devices__card-text

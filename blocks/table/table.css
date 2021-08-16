@@ -1,0 +1,134 @@
+.table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    z-index: 100;
+    position: relative;
+    overflow: hidden;
+}
+
+.table__title {
+    font-family: 'Kaspersky Bold';
+    font-size: 48px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #1D1D1B;
+    margin: 211px auto 143px;
+}
+
+.table__small-cards {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.table__small-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    position: relative;
+    width: 235px;
+}
+
+.table__small-card-logo {
+    width: 20px;
+    height: 20px;
+    margin: 16px auto 12px;
+}
+
+.table__small-card-price {
+    font-family: 'Kaspersky Bold';
+    font-size: 20px;
+    line-height: 30px;
+    color: #375050;
+    margin: 0 auto;
+}
+
+.table__small-card-img {
+    position: absolute;
+    width: 100%;
+    top: -65px;
+}
+
+.table__content {
+    width: 100%;
+    border: 1px solid red;
+}
+
+.table__content-d {
+    width: 233px;
+
+}
+
+.table__content-wrapper {
+    display: flex;
+    width: 393px;
+}
+
+.table__content-title {
+    font-family: 'Kaspersky Bold';
+    font-size: 14px;
+    line-height: 25px;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.table__content-text {
+    font-family: 'Kaspersky Bold';
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: lighter;
+    color: #000000;
+    margin: 0;
+}
+
+.table__content_img {
+    width: 36px;
+    height: 32px;
+    margin: 26px 17px 0 24px;
+}
+
+.table__content-span {
+    font-family: 'Kaspersky Bold';
+    font-size: 16px;
+    line-height: 24px;
+    color: #00A88E;
+    margin-bottom: 22px;
+}
+
+.table__content-check {
+    border: 1px solid red;
+    width: 235px;
+    justify-content: center;
+    padding-left: 110px;
+}
+
+.table__content-checkimg {
+    width: 24px;
+    height: 19px;
+    margin: 0 auto;
+
+}
+
+.table__content_row-gray {
+    background: #F8F8F8;;
+}
+
+.table__content_img-mail {
+    width: 29px;
+    height: 20px;
+    margin: 26px 17px 0 24px;
+}
+
+.table__content-line {
+    width: 11px;
+}
+
+.table__polygon {
+    position: absolute;
+    left: 0;
+    top: 3000px;
+    z-index: 10;
+}

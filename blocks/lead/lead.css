@@ -1,0 +1,43 @@
+@import url(__slogan/lead__slogan.css);
+@import url(__slogan/_letter/lead__slogan_letter.css);
+@import url(__slogan/_energizer/lead__slogan_energizer.css);
+@import url(__title/lead__title.css);
+@import url(__paragraph/lead__paragraph.css);
+@import url(__link/lead__link.css);
+@import url(__img/lead__img.css);
+
+
+
+.lead {
+    width: 1920px;
+    border: 1px solid red;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+
+.lead__text_medium {
+    display: none;
+}
+
+@media screen and (max-width: 720px) {
+    .lead__text_medium {
+        display: flex;
+        font-size: 24px;
+        line-height: 30px;
+        color: #444444;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .lead {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .lead {
+        width: 100%;
+    }
+}

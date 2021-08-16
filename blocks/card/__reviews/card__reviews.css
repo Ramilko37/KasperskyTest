@@ -1,0 +1,13 @@
+.card__reviews {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 0 0 11px;
+    color: #1D1D1B;
+}
+
+.card__reviews_small {
+    font-size: 12px;
+    line-height: 16px;
+    color: #6D6E71;
+    margin: 0 0 0 8px;
+}
