@@ -1,6 +1,4 @@
 .lead__title {
-    width: 765px;
-    height: 96px;
     font-family: Kaspersky Sans, serif;
     font-size: 40px;
     line-height: 47px;
@@ -12,7 +10,6 @@
 
 @media screen and (max-width: 720px) {
     .lead__title {
-        width: 399px;
         font-size: 48px;
         line-height: 52px;
         /* or 108% */

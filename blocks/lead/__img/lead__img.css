@@ -1,7 +1,10 @@
 .lead__img {
     display: flex;
-    margin-top: -72px;
-
+    margin-top: -67px;
+    position: absolute;
+    right: 0px;
+    z-index: 10;
+    width: 740px;
 }
 
 

@@ -9,16 +9,22 @@
 
 
 .lead {
-    width: 1920px;
+    width: 1515px;
     border: 1px solid red;
     display: flex;
-    margin: 0 auto;
+    margin: 0 auto 230px;
     flex-direction: column;
+    position: relative;
+    z-index: 150;
 }
-
 
 .lead__text_medium {
     display: none;
+}
+
+.lead__relative {
+    position: relative;
+    z-index: 150;
 }
 
 @media screen and (max-width: 720px) {
