@@ -2,7 +2,7 @@
 @import url(__slogan/_letter/lead__slogan_letter.css);
 @import url(__slogan/_energizer/lead__slogan_energizer.css);
 @import url(__title/lead__title.css);
-@import url(__paragraph/lead__paragraph.css);
+
 @import url(__link/lead__link.css);
 @import url(__img/lead__img.css);
 
@@ -27,23 +27,53 @@
     z-index: 150;
 }
 
+
+.lead__medium-wrapper {
+    display: none;
+}
+
+
+.lead__paragraph {
+    font-size: 21px;
+    line-height: 28px;
+    color: #444444;
+    margin-bottom: 44px;
+    white-space: pre-line;
+}
+
 @media screen and (max-width: 720px) {
-    .lead__text_medium {
+    .lead__paragraph {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .lead__paragraph-med {
         display: flex;
+        flex-direction: column;
         font-size: 24px;
         line-height: 30px;
         color: #444444;
+        white-space: pre-line;
     }
 }
+
+
+@media screen and (max-width: 720px) {
+    .lead__medium-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 720px;
+        margin: 0 auto;
+
+    }
+}
+
 
 @media screen and (max-width: 720px) {
     .lead {
         width: 100%;
+        margin: 0 20px;
     }
 }
 
-@media screen and (max-width: 640px) {
-    .lead {
-        width: 100%;
-    }
-}
