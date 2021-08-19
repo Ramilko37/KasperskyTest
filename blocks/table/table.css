@@ -222,12 +222,6 @@
     width: 11px;
 }
 
-.table__polygon {
-    position: absolute;
-    left: 0;
-    top: 2870px;
-    z-index: 10;
-}
 
 .table__small-card-position {
     display: flex;
