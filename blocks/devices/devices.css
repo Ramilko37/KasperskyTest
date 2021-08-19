@@ -15,7 +15,18 @@
     width: 187px;
     border: 1px solid red;
     margin-left: 42px;
-}
+}:first-child{
+     margin-left: 0;
+ }
+
+@media screen and (max-width: 768px) {
+    .devices__card {
+        margin-left: 16px;
+    }
+}:first-child{
+    margin-left: 0;
+ }
+
 
 .devices__card-text {
     font-size: 16px;
@@ -66,8 +77,31 @@
 }
 
 
+.visible-checkbox_cards{
+    cursor:pointer;
+    display:inline-block;
+    vertical-align: middle;
+    width:12px;
+    height:12px;
+    border-radius: 50%;
+    border: 1px solid #CCCCCC;
+}
 
+.invisible-checkbox_cards {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
 
+.invisible-checkbox_cards:checked + .visible-checkbox_cards {
+    background-image: url("../../images/SliderDot.svg");
+}
+
+.invisible-checkbox_cards + .visible-checkbox_cards {
+    background-image: url("../../images/SmallEllipse.svg ");
+}
 
 .devices__card-row {
     display: flex;

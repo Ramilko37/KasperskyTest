@@ -49,7 +49,7 @@
 
 .card__gray-wrapper {
     background-color: #F2F2F2;;
-    padding-bottom: 48px;
+    padding-bottom: 29px;
     z-index: 30;
 }
 
@@ -117,21 +117,22 @@
     top: 845px;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
     .card__popup {
         width: 237px;
         height: 100px;
-        padding: 16px 10px 20px 24px;
-        left: 550px;
-        top: 1000px;
+        background-image: url("../../images/Rectangle-med.svg");
+        left: 430px;
+        top: 1500px;
     }
 }
 
 .card__popup-text {
     margin: 0;
-
     font-size: 16px;
     line-height: 19px;
+    width: 203px;
+    height: 95px;
 }
 
 .card__gray-text {
@@ -292,10 +293,8 @@
     font-size: 16px;
     line-height: 20px;
     flex: none;
-
     margin: 0px 4px;
     color: #444444;
-    margin: 0;
     text-align: center;
 
 }
@@ -305,10 +304,28 @@
     z-index: 30;
 }
 
+@media screen and (max-width: 768px) {
+    .card_upper {
+    margin-top: 0;
+        margin-left: 35px;
+        order: 3;
+}
+}
+
 .card__bestchoice {
     width: 174px;
     height: 54px;
     position: absolute;
     top: -25px;
     left: -12px;
+}
+
+
+.card__pricing {
+    margin: 10px 24px 0 0;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #666666;
+    justify-content: center;
 }

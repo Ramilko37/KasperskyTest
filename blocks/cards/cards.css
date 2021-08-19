@@ -1,5 +1,6 @@
 .cards {
     display: flex;
+    flex-direction: column;
     width: 1164px;
     border: 1px solid red;
     margin: -150px auto 225px;
@@ -7,8 +8,25 @@
     z-index: 170;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
     .cards {
+        width: 735px;
         margin: 100px auto;
+        margin-left: -500px;
+    }
+}
+
+.cards__radio {
+    display: none;
+    margin: 38px 860px 0;
+    border: 1px solid red;
+    width: 52px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .cards__radio {
+        display: flex;
     }
 }

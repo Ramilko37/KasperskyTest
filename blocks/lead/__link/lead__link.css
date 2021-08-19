@@ -6,16 +6,19 @@
     margin-top: 44px;
 }
 
-
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
     .lead__link {
         display: none;
     }
 }
 
-@media screen and (max-width: 720px) {
-    .lead__link_medium {
-        display: flex;
+    .lead__link_med {
+        font-size: 16px;
+        line-height: 19px;
+        text-decoration-line: underline;
+        color: #00A88E;
+        margin-top: 39px;
     }
-}
+
+
 
