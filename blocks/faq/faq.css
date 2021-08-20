@@ -24,19 +24,29 @@
 .faq__button {
     width: 114px;
     height: 48px;
-    background: #23D1AE;
+    background: #FFFFFF;
     border-radius: 4px 0px 0px 4px;
-    border: none;
+    border: 1.5px solid #23D1AE;
     justify-content: flex-end;
+}
+
+.faq__button_enabled {
+    background: #23D1AE;
+    border: 1.5px solid #23D1AE;
 }
 
 .faq__button-srq {
     width: 200px;
     height: 48px;
     background: #FFFFFF;
-    border: 1.5px solid #23D1AE;
     box-sizing: border-box;
+    border: 1.5px solid #23D1AE;
     border-radius: 0px 4px 4px 0px;
+}
+
+.faq__button-srq_enabled {
+    background: #23D1AE;
+    border: 1.5px solid #23D1AE;
 }
 
 .faq__table {
@@ -127,4 +137,10 @@
     left: 0;
     top: 2220px;
     z-index: 10;
+}
+
+@media screen and (max-width: 768px) {
+    .faq__polygon {
+       display: none;
+    }
 }

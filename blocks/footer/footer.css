@@ -20,9 +20,12 @@
 }
 
 .footer__nav {
+    list-style: none;
     display: flex;
     text-decoration: none;
-    margin-top: 10px;
+    width: fit-content;
+    margin: 0;
+    padding: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -35,7 +38,7 @@
 .footer__content{
     display: flex;
     flex-direction: column;
-    width: 599px;
+    width: fit-content;
     margin: 25px 328px 41px 0;
 }
 
@@ -47,13 +50,12 @@
 
 
 .footer__link {
-    font-size: 8px;
-    line-height: 8px;
+    font-size: 10px;
+    line-height: 12px;
+    color: #666666;
     text-decoration: none;
     margin-right: 20px;
-    color: #666666;
-
-    white-space: pre-wrap;
+    white-space: nowrap;
 }
 
 @media screen and (max-width: 768px) {
@@ -68,7 +70,7 @@
     font-size: 11px;
     line-height: 16px;
     color: #999999;
-    margin-top: 10px;
+    margin: 0 0 10px 0;
     white-space: pre-line;
 }
 

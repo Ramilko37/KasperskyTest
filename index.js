@@ -1,49 +1,26 @@
+const faq_button = document.querySelector('.faq__button');
+const req_button = document.querySelector('.faq__button-srq');
 
-module.exports = function (participants, sports) {
-    /**
- * Подобно оператору new создает экземпляр объекта,
- * используя функцию-конструктор и параметры для нее
- */
-function constructFrom (fnConstructor, params) {
-    const res = {};
+function reqButtonHandler() {
+    req_button.classList.toggle('faq__button-srq_enabled');
+    faq_button.classList.toggle('faq__button_enabled');
+    req_button.getAttribute('disabled');
+    faq_button.removeAttribute('disabled');
+    console.log('req')
+};
 
-    fnConstructor.bind(res).call(params);
+function faqButtonHandler() {
+    faq_button.classList.toggle('faq__button_enabled');
+    faq_button.classList.toggle('faq__button-srq_enabled');
 
-    Object.setPrototypeOf(res, fnConstructor);
-
-    return res;
-}
-
-/**
- * Создает пары вида [’вид спорта’, ’имя участника’],
- * где первому виду спорта соответствует последний участник
- */
-function assignParicipants () {
-    const participants = this.participants;
-    const sports = this.sports;
-    const orderIndexes = [];
-    let i = sports.length;
-
-    while (i--) {
-        orderIndexes.push(function() {
-            return i;
-        });
-    }
-
-    return orderIndexes.map(
-        (getSportIndex, i) => [sports[i], participants[getSportIndex()]]
-    );
-}
-
-function Contest (participants, sports) {
-    this.participants = participants;
-    this.sports = sports;
-}
-
-Contest.prototype.assignParicipants = assignParicipants;
+    console.log('req')
+};
 
 
-const contest = constructFrom(Contest, participants, sports);
+console.log(faq_button, req_button);
 
-return contest.assignParicipants();
-}
+faq_button.addEventListener('click', faqButtonHandler);
+req_button.addEventListener('click', reqButtonHandler);
+
+
+
